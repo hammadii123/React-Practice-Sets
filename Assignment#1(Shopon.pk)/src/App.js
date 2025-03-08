@@ -1,6 +1,5 @@
 // import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "tailwindcss";
 import './App.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -8,9 +7,6 @@ import CustomCard from './components/card';
 import NavBar from './components/navbar';
 
 import MyCarousel from './components/carousel';
-import SmallCards from './components/smallCards';
-// import MyFooter from './components/MyFooter';
-
 
 
 
@@ -260,7 +256,7 @@ function App() {
   ]
 
   return(
-    <div className='main'>
+    <div>
       
 
 
@@ -269,28 +265,11 @@ function App() {
       </div>
 
 
-      
       <div>
         <MyCarousel/>
       </div>
+
       
-
-      <div className='mainSmallCards'>
-      <div className='smallCards'>
-        <SmallCards img={"https://shopon.pk/images/images/gift-card.png?1700821419075"} title={"Gift Cards"}/>
-        <SmallCards img={"https://shopon.pk/images/images/grocery.png?1700821641905"} title={"Grocery"}/>
-        <SmallCards img={"https://shopon.pk/images/images/fashion.png?1700821697408"} title={" Fashion"}/>
-        <SmallCards img={"https://shopon.pk/images/images/beauty.png?1700821781831"} title={"Beauty"}/>
-        <SmallCards className="smallScreen" img={"https://shopon.pk/images/images/home-decor-item.png?1700821738843"} title={"Home Decor"}/>
-        <SmallCards className="smallScreen" img={"https://shopon.pk/images/images/mobile-%26-tablets.png?1700821816773"} title={"Mobile $ Tablets"}/>
-        <SmallCards className="smallScreen" img={"https://shopon.pk/images/images/electonics.png?1700822336297"} title={"Electronics"}/>
-        <SmallCards className="smallScreen " img={"https://shopon.pk/images/images/brands-west-points.png?1700822468020"} title={"Brands"}/>
-      </div>
-      </div>
-
-
-
-
       <Row>
     {
       fakeStore.map((value,index)=>{
@@ -302,10 +281,6 @@ function App() {
       })
     }
      </Row>
-
-     <div className='MyFooter'>
-        <MyFooter/>
-     </div>
     </div>
   
    
