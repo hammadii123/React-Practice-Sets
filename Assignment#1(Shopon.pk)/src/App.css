@@ -1,0 +1,14 @@
+.cols{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  width: 100%;
+  height: 250px;
+}
