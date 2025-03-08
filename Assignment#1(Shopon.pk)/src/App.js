@@ -10,7 +10,7 @@ import NavBar from './components/navbar';
 import MyCarousel from './components/carousel';
 import SmallCards from './components/smallCards';
 // import MyFooter from './components/MyFooter';
-import MyFooter from './components/footer';
+
 
 
 
