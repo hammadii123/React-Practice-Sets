@@ -1,15 +1,16 @@
-import React from 'react'
+// import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
-const smallCards = () => {
-    // const cards=[{
-    //     "image":"https://shopon.pk/images/images/gift-card.png?1700821419075",
-    //     "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
-    // }]
+function SmallCards({img,title}) {
   return (
-    <div>
+    <Card style={{ width: '9rem' }}>
+      <Card.Img variant="top" src={img} />
+      <Card.Body>
+        <Card.Title className='card-title'>{title}</Card.Title>
 
-    </div>
-  )
+      </Card.Body>
+    </Card>
+  );
 }
 
-export default smallCards
+export default SmallCards;

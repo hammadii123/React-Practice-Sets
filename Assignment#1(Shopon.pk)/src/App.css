@@ -1,9 +1,23 @@
+
+
+body{
+  overflow-x: hidden;
+}
+.navbar{
+  background-color: #ececec !important;
+}
+
+.main{
+  background-color: #ececec !important;
+}
 .cols{
   display: flex;
   justify-content: center;
   padding: 15px;
 
 }
+
+
 
 .img{
   display: flex;
@@ -12,3 +26,50 @@
   width: 100%;
   height: 250px;
 }
+
+.mainSmallCards{
+  display: flex;
+  justify-content: center;
+}
+.smallCards{
+  background-color: white;
+  display: flex;
+  /* flex-grow: 1; */
+      justify-content: center;
+      /* gap: 3vw; */
+      /* border: 2px solid; */
+      padding: 40px;
+
+      .card{
+        width: 10rem;
+        border-radius: 34px;
+        border: none;
+      }
+
+      .card-title {
+        font-size: 15px !important;
+      }
+}
+
+/* @media only screen and (max-width: 600px) {
+  .smallCards{
+    width: 100%;
+    .card{
+      width: 2rem !important;
+      border-radius: 34px;
+      border: none;
+     
+    }
+
+    
+    
+  }
+  .smallScreen{
+    display: none !important;
+  }
+} */
+  @media only screen and (max-width: 600px) {
+    .smallCards{
+      display: none;
+    }
+  }

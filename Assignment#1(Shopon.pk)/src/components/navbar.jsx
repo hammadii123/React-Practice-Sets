@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary navbar">
       <Container fluid>
         <Navbar.Brand href="#">
           {/* <Image src="/logo.png" width={50} height={50}/> */}
