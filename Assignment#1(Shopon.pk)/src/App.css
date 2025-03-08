@@ -19,10 +19,10 @@ body{
 
 
 
-.img{
+.cardsImg{
   display: flex;
   justify-content: center;
-  padding: 25px;
+  padding: 45px;
   width: 100%;
   height: 250px;
 }
@@ -51,6 +51,15 @@ body{
       }
 }
 
+.carousel2{
+  width: 270px;
+}
+
+.p-carousel-item{
+  display: flex ;
+  justify-content: center;
+}
+
 /* @media only screen and (max-width: 600px) {
   .smallCards{
     width: 100%;
@@ -69,7 +78,36 @@ body{
   }
 } */
   @media only screen and (max-width: 600px) {
+
     .smallCards{
-      display: none;
+      gap: 5px !important;
+      .smallCardBody{
+        padding: 0;
+        margin-top: 10px;
+      }
+
     }
+    .smallScreen{
+      display: none !important;
+    }
+    .small{
+      width: 70px !important;
+      
+      
+      
+    }
+
+
+    .cardsImg{
+      width: 70%;
+    }
+
+    .carousel{
+      height: 230px !important;
+      img{
+
+        height: 230px !important;
+      }
+    }
+    
   }
